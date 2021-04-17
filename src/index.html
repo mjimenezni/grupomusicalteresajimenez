@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <title>Engel Band</title>
+</head>
+
+<body>
+
+    <header class="container-fluid bg-light">
+        <!-- Logo superior -->
+        <a class="logo navbar-brand" href="index.html"><img src="./assets/images/logo.png" alt="Logo"
+                class="img-fluid"></a>
+
+        <!--Menú de navegación superior-->
+        <nav class="nav-superior navbar navbar-expand-md navbar-light">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Componentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid bg-light">
+        <!--Carrusel de imágenes-->
+        <div id="carruselPortada" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/woman-carousel1.jpg" class="img-carousel d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/woman-carousel2.jpg" class="img-carousel d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPortada" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPortada" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--Slogan-->
+        <h1 class="slogan-portada fst-italic">Hay canciones que al cerrar los ojos se convierten en personas</h1>
+    </main>
+
+    <footer class="container-fluid">
+        <!--Información de contacto-->
+        <p class="footer-contacto">Contacta con nosotros a través de nuestro correo: engelband@gmail.com</p>
+
+        <!--Menú de navegación footer-->
+        <a class="navbar-brand footer-logo" href="#"><img src="./assets/images/logo.png" alt="logo"
+                class="img-fluid"></a>
+        <nav class="footer-menu navbar navbar-expand navbar-light">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Componentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Redes sociales-->
+        <div class="footer-redes">
+            <i class="fab fa-google-plus-g fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+            <i class="fab fa-twitter fa-lg"></i>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-recommended-scss",
+  "rules": {
+    "selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+    "color-hex-case": "lower",
+    "indentation": [2, { "except": ["value"] }],
+    "string-quotes": "double",
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-colon-space-after": "always",
+    "declaration-block-trailing-semicolon": always,
+    "selector-list-comma-space-before": "always-single-line",
+    "value-list-comma-space-after": "always-single-line",
+    }
+}
