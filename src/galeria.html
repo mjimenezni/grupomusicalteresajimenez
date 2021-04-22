@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <title>Engel Band - Galeria</title>
+</head>
+
+<body>
+
+    <header class="header container-fluid bg-light">
+        <!-- Logo superior -->
+        <a class="header__logo navbar-brand" href="index.html"><img src="./assets/images/logo.png" alt="Logo"
+                class="img-fluid"></a>
+
+        <!--Menú de navegación superior-->
+        <nav class="header__nav-superior navbar navbar-expand-md navbar-light">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="componentes.html">Componentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="galeria.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-light">
+        <h1 class="main-h1 text-center">Galería de fotos</h1>
+        <!-- Modal gallery -->
+        <div class="main-galeria container-fluid ">
+            <!-- Section: Images -->
+            <section class="main-galeria__imagenes">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <img src="https://cdn.pixabay.com/photo/2015/09/19/01/05/country-946706_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img src="https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal3">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/22/21/36/audience-1850665_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4  col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal4">
+                            <img src=https://cdn.pixabay.com/photo/2016/03/27/19/28/music-1283851_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4  col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal5">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4  col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal6">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4  col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal7">
+                            <img src="https://cdn.pixabay.com/photo/2015/11/07/11/23/man-1031087_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4  col-sm-6 p-2">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal8">
+                            <img src="https://cdn.pixabay.com/photo/2019/11/02/01/15/headphones-4595492_960_720.jpg"
+                                class="w-100 rounded" />
+                        </a>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+
+        <!-- Section: Modals -->
+        <section class="main-galeria__modales">
+            <!-- Modal 1 -->
+            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2015/09/19/01/05/country-946706_960_720.jpg"
+                                title="Foto cantante"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074_960_720.jpg"
+                                title="Foto concierto"></img>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/22/21/36/audience-1850665_960_720.jpg"
+                                title="Foto concierto"></img>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 4 -->
+            <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2016/03/27/19/28/music-1283851_960_720.jpg"
+                                title="Foto violín"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 5 -->
+            <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg"
+                                title="Foto violín"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 6 -->
+            <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/29/07/36/audience-1868137_960_720.jpg"
+                                title="Foto violín"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 7 -->
+            <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2015/11/07/11/23/man-1031087_960_720.jpg"
+                                title="Foto violín"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 8 -->
+            <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="ratio ratio-16x9">
+                            <img src="https://cdn.pixabay.com/photo/2019/11/02/01/15/headphones-4595492_960_720.jpg"
+                                title="Foto violín"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+    </main>
+    <footer class="footer container-fluid">
+        <!--Información de contacto-->
+        <p class="footer__contacto text-center">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
+        </p>
+
+        <!--Menú de navegación footer-->
+        <a class="navbar-brand footer__logo" href="index.html"><img src="./assets/images/logo.png" alt="logo"
+                class="img-fluid"></a>
+        <nav class="footer__nav navbar navbar-expand navbar-light">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="componentes.html">Componentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="galeria.html">Galería</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--Redes sociales-->
+        <div class="footer__redes">
+            <i class="fab fa-google-plus-g fa-lg"></i>
+            <i class="fab fa-facebook fa-lg"></i>
+            <i class="fab fa-twitter fa-lg"></i>
+        </div>
+    </footer>
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

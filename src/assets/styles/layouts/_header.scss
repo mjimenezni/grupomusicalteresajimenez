@@ -1,0 +1,31 @@
+/*NAVEGADORES QUE NO SOPORTEN GRID*/
+.header__logo {
+  float: left;
+}
+
+.header__nav-superior {
+  float: right
+}
+
+
+
+/*NAVEGADORES QUE SOPORTEN GRID*/
+@supports (display:gridd) {
+
+  .header {
+    display: grid;
+    max-width: none;
+    padding: 0;
+    grid-template-columns: 1fr 5fr 3fr;
+    grid-template-rows: auto;
+  }
+
+  .header__logo {
+    grid-column: 1 / 2;
+  }
+
+  .header__nav-superior {
+    grid-column: 3 / 3;
+    justify-self: end;
+  }
+}

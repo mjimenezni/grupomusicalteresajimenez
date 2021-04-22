@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
-    <title>Engel Band</title>
+    <title>Engel Band - Componentes</title>
 </head>
 
 <body>
@@ -28,10 +28,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="componentes.html">Componentes</a>
+                            <a class="nav-link active" aria-current="page" href="componentes.html">Componentes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="noticias.html">Noticias</a>
@@ -44,49 +44,57 @@
             </div>
         </nav>
     </header>
+    <main class="bg-light">
+        <h1 class="main-h1 text-center">Componentes de Engel Band</h1>
+        <div class="main-componentes container-fluid ">
 
-    <main class="main-index container-fluid bg-light">
-        <!--Carrusel de imágenes-->
-        <div id="carruselPortada" class="main-index__carousel carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/woman-carousel1.jpg" class="carousel-item__img d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/woman-carousel2.jpg" class="carousel-item__img d-block w-100" alt="...">
-                </div>
+            <div class="miembro text-center">
+                <img src="./assets/images/cantante.jpg" class="miembro__img img-fluid rounded" alt="Foto cantante">
+                <h4 class="miembro__h4">María Salas</h4>
+                <p class="fs-5 miembro__p">Cantante</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPortada" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carruselPortada" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="miembro text-center"> <img src="./assets/images/guitarrista.jpg"
+                    class="miembro__img img-fluid rounded" alt="Foto guitarrista">
+                <h4 class="miembro__h4">Richard Nixon</h4>
+                <p class="fs-5 miembro__p">Guitarra</p>
+            </div>
+            <div class="miembro text-center"> <img src="./assets/images/bateria.jpg"
+                    class="miembro__img img-fluid rounded" alt="Foto batería">
+                <h4 class="miembro__h4">Roberto Solís</h4>
+                <p class="fs-5 miembro__p">Guitarra</p>
+            </div>
+            <div class="miembro text-center"> <img src="./assets/images/guitarraElectrica.jpg"
+                    class="miembro__img img-fluid rounded" alt="Foto guitarra eléctrica">
+                <h4 class="miembro__h4">Jane Wane</h4>
+                <p class="fs-5 miembro__p">Guitarra eléctrica</p>
+            </div>
+            <div class="miembro text-center"> <img src="./assets/images/teclado.jpg"
+                    class="miembro__img img-fluid rounded" alt="Foto instrumento teclado">
+                <h4 class="miembro__h4">Mario Roldán</h4>
+                <p class="fs-5 miembro__p">Instrumento de teclado</p>
+            </div>
+            <div class="miembro text-center"> <img src="./assets/images/violin.jpg"
+                    class="miembro__img img-fluid rounded" alt="Foto violinista">
+                <h4 class="miembro__h4">Andrea Lucas</h4>
+                <p class="fs-5 miembro__p">Violín</p>
+            </div>
         </div>
-
-        <!--Slogan-->
-        <h1 class="main-index__slogan fst-italic text-center">Hay canciones que al cerrar los ojos se convierten en
-            personas
-        </h1>
     </main>
-
-    <footer class="footer container-fluid text-center">
+    <footer class="footer container-fluid">
         <!--Información de contacto-->
-        <p class="footer__contacto ">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
+        <p class="footer__contacto text-center">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
         </p>
 
         <!--Menú de navegación footer-->
         <a class="navbar-brand footer__logo" href="index.html"><img src="./assets/images/logo.png" alt="logo"
                 class="img-fluid"></a>
         <nav class="footer__nav navbar navbar-expand navbar-light">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link " href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="componentes.html">Componentes</a>
+                    <a class="nav-link active" aria-current="page" href="componentes.html">Componentes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="noticias.html">Noticias</a>
