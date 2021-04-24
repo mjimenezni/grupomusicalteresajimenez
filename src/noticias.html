@@ -54,7 +54,7 @@
                     <div class="col-lg-8 border-top border-start rounded-start">
                         <blockquote
                             cite="https://www.kissfm.es/2021/04/21/la-musica-en-vivo-reduce-mas-de-un-60-su-facturacion/">
-                            <h2 class="fw-bold">La música en vivo reduce más de un 60 % su facturación</h2>
+                            <h2 class="fw-bold pt-3">La música en vivo reduce más de un 60 % su facturación</h2>
                             </br>
                             <p class="text-start">Este miércoles, la <strong>Asociación de Promotores Musicales
                                     (APM</strong>) ha publicado los
@@ -64,7 +64,7 @@
                                 2019.
                             </p>
                             <img src="https://cdn.pixabay.com/photo/2015/07/30/17/24/audience-868074_960_720.jpg"
-                                alt="Imagen concierto" class="img-fluid w-50 rounded">
+                                alt="Imagen concierto" class="img-fluid w-50 rounded pb-3">
                             <p class="text-start">Los datos son demoledores para el sector y, según ha señalado el
                                 presidente de la APM,
                                 Alberto
@@ -96,7 +96,7 @@
                     <div class="col-lg-2"></div>
 
                     <div class="col-lg-8 border-top border-start rounded-start">
-                        <h2 class="fw-bold">La música en vivo reduce más de un 60 % su facturación</h2>
+                        <h2 class="fw-bold pt-3">La música en vivo reduce más de un 60 % su facturación</h2>
                         </br>
                         <p class="text-start">Este miércoles, la <strong>Asociación de Promotores Musicales
                                 (APM</strong>) ha publicado los
@@ -105,7 +105,7 @@
                             2019.
                         </p>
                         <img src="https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_960_720.jpg"
-                            alt="Imagen concierto" class="img-fluid w-50 rounded">
+                            alt="Imagen concierto" class="img-fluid w-50 rounded pb-3">
                         <ul class="fa-ul">
                             <li class="text-start"><span class="fa-li"><i class="fas fa-music"></i></span>Los datos son
                                 demoledores
@@ -139,10 +139,27 @@
             </article>
         </div>
     </main>
-    <footer class="footer container-fluid">
+    <footer class="footer container-fluid text-center">
         <!--Información de contacto-->
-        <p class="footer__contacto text-center">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
-        </p>
+        <div class="footer__contacto ">
+            <p>Contacta con nosotros a través de nuestro correo: engelband@gmail.com</p>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Más información de contacto</button>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Más información de contacto</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies est lectus, vel dignissim eros
+                    gravida ac. Aenean fermentum, nulla et fermentum hendrerit, velit tortor facilisis purus, id sodales
+                    erat turpis fringilla nibh.
+                </div>
+            </div>
+        </div>
 
         <!--Menú de navegación footer-->
         <a class="navbar-brand footer__logo" href="index.html"><img src="./assets/images/logo.png" alt="logo"

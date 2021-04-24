@@ -227,10 +227,27 @@
         </div>
 
     </main>
-    <footer class="footer container-fluid">
+    <footer class="footer container-fluid text-center">
         <!--Información de contacto-->
-        <p class="footer__contacto text-center">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
-        </p>
+        <div class="footer__contacto ">
+            <p>Contacta con nosotros a través de nuestro correo: engelband@gmail.com</p>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Más información de contacto</button>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Más información de contacto</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies est lectus, vel dignissim eros
+                    gravida ac. Aenean fermentum, nulla et fermentum hendrerit, velit tortor facilisis purus, id sodales
+                    erat turpis fringilla nibh.
+                </div>
+            </div>
+        </div>
 
         <!--Menú de navegación footer-->
         <a class="navbar-brand footer__logo" href="index.html"><img src="./assets/images/logo.png" alt="logo"

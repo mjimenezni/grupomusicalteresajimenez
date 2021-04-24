@@ -45,7 +45,7 @@
         </nav>
     </header>
 
-    <main class="main-index container-fluid bg-light">
+    <main class="main-index container-fluid bg-light p-4">
         <!--Carrusel de imágenes-->
         <div id="carruselPortada" class="main-index__carousel carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -56,13 +56,13 @@
                     <img src="assets/images/woman-carousel2.jpg" class="carousel-item__img d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPortada" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carruselPortada" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="visually-hidden">Anterior</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carruselPortada" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
 
@@ -74,8 +74,25 @@
 
     <footer class="footer container-fluid text-center">
         <!--Información de contacto-->
-        <p class="footer__contacto ">Contacta con nosotros a través de nuestro correo: engelband@gmail.com
-        </p>
+        <div class="footer__contacto ">
+            <p>Contacta con nosotros a través de nuestro correo: engelband@gmail.com</p>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Más información de contacto</button>
+
+            <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Más información de contacto</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies est lectus, vel dignissim eros
+                    gravida ac. Aenean fermentum, nulla et fermentum hendrerit, velit tortor facilisis purus, id sodales
+                    erat turpis fringilla nibh.
+                </div>
+            </div>
+        </div>
 
         <!--Menú de navegación footer-->
         <a class="navbar-brand footer__logo" href="index.html"><img src="./assets/images/logo.png" alt="logo"

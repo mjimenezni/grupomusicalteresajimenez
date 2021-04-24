@@ -8,13 +8,13 @@
   margin: auto;
 }
 
-.carousel-control-prev {
+/*.carousel-control-prev {
   padding-left: 50px;
 }
 
 .carousel-control-next {
   padding-right: 50px;
-}
+}*/
 
 /*-------------------------------------*/
 /*---------#MAIN  COMPONENTES.HTML----------*/
@@ -37,7 +37,7 @@
     display: grid;
     max-width: none;
     padding: 0;
-    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: auto auto;
   }
 
@@ -65,7 +65,7 @@
   /*---------#MAIN  COMPONENTES.HTML----------*/
   /*-------------------------------------*/
   .main-componentes {
-    width: 80%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +79,7 @@
   }
 
   .miembro__img {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
 
