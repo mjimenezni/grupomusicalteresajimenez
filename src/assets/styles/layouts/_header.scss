@@ -10,7 +10,7 @@
 
 
 /*NAVEGADORES QUE SOPORTEN GRID*/
-@supports (display:gridd) {
+@supports (display:grid) {
 
   .header {
     display: grid;
@@ -18,16 +18,15 @@
     padding: 0;
     grid-template-columns: 1fr 5fr 3fr;
     grid-template-rows: auto;
-
-    .header__logo {
-      grid-column: 1 / 2;
-    }
-
-    .header__nav-superior {
-      grid-column: 3 / 3;
-      justify-self: end;
-    }
   }
 
+  .header__logo {
+    grid-column: 1 / 2;
+  }
+
+  .header__nav-superior {
+    grid-column: 3 / 3;
+    justify-self: end;
+  }
 
 }
